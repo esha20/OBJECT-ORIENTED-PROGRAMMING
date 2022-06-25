@@ -40,7 +40,7 @@ int main()
 	first.print();
 	
 	//using default copy constructor to initialise another object second.
-	dob second(first);	//or can also be dob second = first;
+	dob second(first);	//or can also be dob second = first; this can be done through the copy assignment operator.
 	
 	//change the name now in the first object.
 	first.name[0]='A';
